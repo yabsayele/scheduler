@@ -23,7 +23,7 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.database().ref();
 
 
-
+const summer = 'yes';
 const terms = { F: 'Fall', W: 'Winter', S: 'Spring'};
 
 const days = ["M", "Tu", "W", "Th", "F"];
